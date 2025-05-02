@@ -15,7 +15,7 @@ public class Program
         numbers[4] = 55;
 
         // 3. Accessing
-        Console.WriteLine("Element at index 3: " + numbers[3]);
+        Console.WriteLine("Element at index 3:"  + numbers[3]);
 
         // 4. Updating value in array at index 2
         numbers[2] = 99;

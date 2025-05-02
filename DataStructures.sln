@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{351DD9FB-4551-4F5A-AA10-FB3D4C154BD8}"
 EndProject
@@ -26,6 +26,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddElementInArray", "AddElementInArray\AddElementInArray.csproj", "{D2B7ABE4-25C9-4871-9304-9E3C1DAB84FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllArraysOperations", "AllArraysOperations\AllArraysOperations.csproj", "{ACBFB9A5-478C-4A68-93AA-0972653E693D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedLists", "LinkedLists", "{7E4F96DC-8BD5-47BF-9121-37B491C0CBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayLinkedList", "PrintLinkedList\DisplayLinkedList.csproj", "{65E76790-DF65-427A-8079-2A905FCC71C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertElementInLinkedList", "InsertAtBegining\InsertElementInLinkedList.csproj", "{DAF4FF09-44FB-4CF7-B097-D447A397EE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchOperationOnLinkedlist", "SearchOperationOnLinkedlist\SearchOperationOnLinkedlist.csproj", "{D620D525-D1CA-4E43-8C33-4D9CE7FEAC4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteElementInLinkedList", "DeleteElementInLinkedList\DeleteElementInLinkedList.csproj", "{17FF887F-BB22-48B8-9EF8-CA602C621FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +79,22 @@ Global
 		{ACBFB9A5-478C-4A68-93AA-0972653E693D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACBFB9A5-478C-4A68-93AA-0972653E693D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACBFB9A5-478C-4A68-93AA-0972653E693D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E76790-DF65-427A-8079-2A905FCC71C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E76790-DF65-427A-8079-2A905FCC71C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E76790-DF65-427A-8079-2A905FCC71C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E76790-DF65-427A-8079-2A905FCC71C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF4FF09-44FB-4CF7-B097-D447A397EE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF4FF09-44FB-4CF7-B097-D447A397EE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF4FF09-44FB-4CF7-B097-D447A397EE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF4FF09-44FB-4CF7-B097-D447A397EE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D620D525-D1CA-4E43-8C33-4D9CE7FEAC4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D620D525-D1CA-4E43-8C33-4D9CE7FEAC4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D620D525-D1CA-4E43-8C33-4D9CE7FEAC4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D620D525-D1CA-4E43-8C33-4D9CE7FEAC4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FF887F-BB22-48B8-9EF8-CA602C621FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FF887F-BB22-48B8-9EF8-CA602C621FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FF887F-BB22-48B8-9EF8-CA602C621FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FF887F-BB22-48B8-9EF8-CA602C621FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +108,9 @@ Global
 		{A5732036-5195-483F-946D-EAC752AFDBDD} = {D2C61374-52BE-4469-963A-195AEE88B025}
 		{D2B7ABE4-25C9-4871-9304-9E3C1DAB84FB} = {D2C61374-52BE-4469-963A-195AEE88B025}
 		{ACBFB9A5-478C-4A68-93AA-0972653E693D} = {D2C61374-52BE-4469-963A-195AEE88B025}
+		{65E76790-DF65-427A-8079-2A905FCC71C3} = {7E4F96DC-8BD5-47BF-9121-37B491C0CBAA}
+		{DAF4FF09-44FB-4CF7-B097-D447A397EE32} = {7E4F96DC-8BD5-47BF-9121-37B491C0CBAA}
+		{D620D525-D1CA-4E43-8C33-4D9CE7FEAC4A} = {7E4F96DC-8BD5-47BF-9121-37B491C0CBAA}
+		{17FF887F-BB22-48B8-9EF8-CA602C621FA3} = {7E4F96DC-8BD5-47BF-9121-37B491C0CBAA}
 	EndGlobalSection
 EndGlobal
